@@ -5,3 +5,6 @@ def cadastro(request):
 
 def login(request):
     return render(request, 'usuarios/login.html')
+
+def admin(request):
+    return render(request, 'dashboards/admin.html')
