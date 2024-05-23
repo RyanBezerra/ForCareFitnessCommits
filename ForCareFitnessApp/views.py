@@ -8,3 +8,9 @@ def login(request):
 
 def admin(request):
     return render(request, 'dashboards/admin.html')
+
+def aluno(request):
+    return render(request, 'dashboards/aluno.html')
+
+def fichas(request):
+    return render(request, 'dashboards/fichas.html')
